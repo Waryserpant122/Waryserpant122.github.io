@@ -1,0 +1,49 @@
+#btn1
+{
+	color: white;
+	border-color: red;
+	border-width: 3px;
+}
+
+#btn2
+{
+	align-self: center;
+	align-content: center;
+	text-decoration-color: blue;
+	border-color: red;
+	border-width: 4px;
+	width: 180px;
+	height: 75px;
+	display: inline-block;
+	background-color: grey;
+    transition-duration: 0.4s;
+    position: fixed;
+    bottom: 350px;
+    right: 620px;
+}
+
+#btn2:hover
+{
+	background-color: black;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/04/MarvelLogo.svg");
+	 background-size: 180px 75px;
+}
+
+table,th,td
+{
+	border-color: red;
+	border-width: 3px;
+	border-style: solid;
+	align-self: center;
+    align-items: center;
+    column-width: 60px;
+    font-size: 18px;
+    padding: 15px;
+
+}
+
+table.center 
+{
+    margin-left:auto; 
+    margin-right:auto;
+}
